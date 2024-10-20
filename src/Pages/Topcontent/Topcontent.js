@@ -7,9 +7,7 @@ import Mail from './Mail/Mail';
 import { Element } from 'react-scroll';
 import { FiDownload } from "react-icons/fi";
 import { IoIosMail } from "react-icons/io";
-import { saveAs } from 'file-saver';
 import pravin from "../Images/pravin_edited.png"
-import mule from "../Images/Cert-Badge_MuleSoft-Developer-I.png"
 
 
 const Topcontent = () => {

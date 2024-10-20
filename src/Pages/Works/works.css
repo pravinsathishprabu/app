@@ -1,5 +1,5 @@
 .workscontainer{
-    min-height: 100vh;
+    min-height: 60vh;
     max-width: 100%;
     font-style: bold;
     overflow-x: hidden;
@@ -40,6 +40,12 @@ th {
     margin: 10px;
     font-size: large;
     float: left;
+}
+td{   
+    color: black;
+    margin: 10px;
+    font-size: large;
+    text-align: right;
 }
 @media screen and (max-width: 600px){
 th{
