@@ -1,0 +1,15 @@
+.Bottomcontent{
+    height: 05vh;
+}
+p{
+    color:white;
+}
+.col{
+    margin-top: 50px;
+}
+.cover{
+    width: 100%;
+    padding: 20px;
+    height: 50vh;
+    border:1px solid black;
+}

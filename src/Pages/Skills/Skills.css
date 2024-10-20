@@ -1,0 +1,37 @@
+.highlights{
+    color: navy;
+    font-size: xx-large;
+}
+.highlight2{
+    color: white;
+    font-size: x-large;
+}
+.snaplogic{
+    width:50%;
+    padding: 1%;
+}
+.skilltab{
+    width: 100%;
+    height: 14vh;
+    border:1px solid black;
+    border-radius: 30px;
+    padding: 4%;
+}
+.skillcontainer{
+    background-color: white;
+    color:black;
+    width:100%;
+}
+@media screen and (max-width: 600px){
+    .skilltab{
+        width: 100%;
+        height:10vh;
+        border:1px solid black;
+        border-radius: 30px;
+        padding: 7%;
+    }
+    .highlight2{
+        color: white;
+        font-size: large;
+    }
+}

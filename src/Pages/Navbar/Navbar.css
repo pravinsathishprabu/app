@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+.container__left{
+    color:black;
+    width:300px;
+    font-family: 'Alata', sans-serif;
+}
+.container-fluid > h1 > span{
+    color: navy;
+    font-family: 'Alata', sans-serif;
+}
+.header{
+    width:100%;
+    position:fixed;
+    z-index: 1;
+    border-bottom: 2px solid navy;
+}
+.nav-item{
+  padding:10px;
+  width:150px;
+  color:black;
+  text-align:center;
+  font-family: 'Alata', sans-serif;
+}
+.nav-item:active{
+    color: navy;
+    text-align:center;
+  font-family: 'Alata', sans-serif;
+  border-bottom: 2px solid navy;
+}
+.nav-item:hover{
+    cursor: pointer; 
+    transition-timing-function: ease-in-out;
+    color:navy;
+    border-bottom: 2px solid navy;
+  }
+.butt{
+    border-radius: 10px;
+    color:black;
+    padding:10px;
+    width:300px;
+    font-style: bold;
+    text-align:center;
+    background-color: navy;
+    color:white;
+}
+.butt:hover{
+    background-color: white;
+    cursor: pointer;
+    transition-timing-function: ease-in-out;
+    color:navy;
+    border-bottom: 5px solid navy;
+}
+.navbar-toggler-icon{
+    float:right;
+}
+.navbar-toggler{
+    border: none;
+    outline: none;
+}
+.container__right{
+    margin-left: 100px;
+}
+.link{
+    text-decoration: none;
+    color:white;
+    font-style: bold;
+}
+.link:hover{
+    color: navy;
+    font-style: bold;
+}
+@media screen and (max-width: 600px) {
+    .nav-item {
+      float: right;
+      width: 100%;
+    }
+    .container__right{
+        margin-left:0px;
+    }
+    .link{
+        color: white;
+        font-style: bold;
+    }
+    .butt{
+        float: right;
+        width: 100%;
+    }
+}
